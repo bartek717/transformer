@@ -15,7 +15,8 @@ n_head = 6
 n_layer = 6
 dropout = 0.2
 # ------------
-
+print(device)
+print(torch.cuda.is_available())
 torch.manual_seed(1337)
 
 # wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
